@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<body>
+    
+    <div class="main">
+        <header>
+            <h1>JAMStack Media App </h1>
+            <img class="project" src="./images/img1.jpg" alt="">
+        </header>
+
+        <!-- select and input -->
+        <div class="container search" style="justify-content: center;">
+            <select name="options" id="media">
+                <option value="movie">Movie</option>
+                <option value="tv">TV Show</option></select>
+               <input type="search" id="search" autofocus autocomplete="off" placeholder="Search for Movie/TV show" /> <button class="btn">Search</button>
+        </div>
+
+        <div class="greet">
+           <h2 class="welcome">Welcome to my Web App</h2> 
+        </div>
+
+        <div class="container card" id="movie-grid">
+            <!-- fetch content -->
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
